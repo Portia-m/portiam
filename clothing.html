@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Collection - Portia Style Hub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0V4LLanw2qksYuTlGYAzjYq6pUjv/ewf/gb9xafhK0E6Zl/K5Ff1+3FfL5g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+           <span>PORTIA STYLE HUB</span>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shoes.html">Shoes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="clothing.html">Clothing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cart.html">Add to Cart</a> 
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="feedback.html">Feedback</a>
+                    </li>
+                </ul>
+                
+                
+                <form class="d-flex ms-lg-3 mt-3 mt-lg-0" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search products..." aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <section class="hero-section text-white text-center py-5" style="background: linear-gradient(rgba(75, 0, 130, 0.8), rgba(0, 86, 179, 0.8)), url('https://images.unsplash.com/photo-1512436991641-6745cdb1723f?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover no-repeat; padding: 100px 0; margin-bottom: 50px;">
+        <div class="container">
+            <h1 class="display-3 fw-bold mb-4">Dress to Impress</h1>
+            <p class="lead mb-5">Discover our versatile collection of apparel, blending comfort with the latest fashion trends.</p>
+            <a href="#clothing-products" class="btn btn-light btn-lg px-4 py-2 fw-bold" style="color: #4B0082;">Shop Clothing Now</a>
+        </div>
+    </section>
+
+    <div class="container mt-5" id="clothing-products">
+        <h2 class="text-center mb-4 section-title">Our Latest Clothing Collection</h2>
+        <p class="text-center text-muted mb-5">From everyday essentials to statement pieces, find your perfect outfit.</p>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <img src="images/curvy.webp" class="card-img-top" alt="Elegant Curvy Dress">
+                    <div class="card-body">
+                        <h5 class="card-title">Elegant Curvy Dress</h5>
+                        <p class="card-text">Designed to flatter every curve, this elegant dress is perfect for special occasions or a sophisticated evening out. Made from high-quality, stretchable fabric.</p>
+                        <p class="card-text"><strong>Price: BWP750.00</strong></p>
+                        <button class="btn btn-primary add-to-cart" data-id="cloth-001" data-name="Elegant Curvy Dress" data-price="750.00" data-image="https://googleusercontent.com/files/curvy dress.jpg-a063a3ee-2901-4264-8943-72b39ab12b07">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <img src="images/bomber.jpg" class="card-img-top" alt="Stylish Bomber Jacket">
+                    <div class="card-body">
+                        <h5 class="card-title">Stylish Bomber Jacket</h5>
+                        <p class="card-text">A versatile and trendy bomber jacket that adds a cool edge to any casual look. Features comfortable lining and durable outer material.</p>
+                        <p class="card-text"><strong>Price: BWP599.99</strong></p>
+                        <button class="btn btn-primary add-to-cart" data-id="cloth-002" data-name="Stylish Bomber Jacket" data-price="599.99" data-image="https://googleusercontent.com/files/jacket 1.png-15e4d2b8-e2fc-4ad1-ba94-815b90583017">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <img src="images/denim.webp" class="card-img-top" alt="Classic Denim Jacket">
+                    <div class="card-body">
+                        <h5 class="card-title">Classic Denim Jacket</h5>
+                        <p class="card-text">An essential piece for every wardrobe, this classic denim jacket offers timeless style and comfort. Perfect for layering in any season.</p>
+                        <p class="card-text"><strong>Price: BWP649.50</strong></p>
+                        <button class="btn btn-primary add-to-cart" data-id="cloth-003" data-name="Classic Denim Jacket" data-price="649.50" data-image="https://googleusercontent.com/files/jacket 2.webp-2d09194b-9d52-4d3a-9fb7-af292d2fd27b">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <img src="images/denim.webp" class="card-img-top" alt="Modern Windbreaker Jacket">
+                    <div class="card-body">
+                        <h5 class="card-title">Modern Windbreaker Jacket</h5>
+                        <p class="card-text">Stay protected and stylish with this lightweight windbreaker. Ideal for outdoor activities and everyday casual wear.</p>
+                        <p class="card-text"><strong>Price: BWP499.00</strong></p>
+                        <button class="btn btn-primary add-to-cart" data-id="cloth-004" data-name="Modern Windbreaker Jacket" data-price="499.00" data-image="https://googleusercontent.com/files/jacket 3.png-19e327de-9432-44d0-a96d-2b2b2e544395">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <img src="images/leather.webp" class="card-img-top" alt="Luxurious Leather Jacket">
+                    <div class="card-body">
+                        <h5 class="card-title">Luxurious Leather Jacket</h5>
+                        <p class="card-text">Invest in timeless style with this genuine leather jacket. A sophisticated addition to any wardrobe, offering both warmth and a sharp look.</p>
+                        <p class="card-text"><strong>Price: BWP1899.99</strong></p>
+                        <button class="btn btn-primary add-to-cart" data-id="cloth-005" data-name="Luxurious Leather Jacket" data-price="1899.99" data-image="https://googleusercontent.com/files/jacket 4.jpg-e056ff99-09ee-43af-98ee-925156cf849b">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <img src="images/Levi.jpg" class="card-img-top" alt="Levi's 501 Original Fit Jeans">
+                    <div class="card-body">
+                        <h5 class="card-title">Levi's 501 Original Fit Jeans</h5>
+                        <p class="card-text">The iconic Levi's 501 jeans, known for their timeless straight fit and durable denim. A foundational piece for any casual or semi-casual wardrobe.</p>
+                        <p class="card-text"><strong>Price: BWP899.00</strong></p>
+                        <button class="btn btn-primary add-to-cart" data-id="cloth-006" data-name="Levi's 501 Original Fit Jeans" data-price="899.00" data-image="https://googleusercontent.com/files/levis 501.webp-2ed8370f-b9e4-4ef4-872d-338ac3d3418d">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="call-to-action text-center py-5 my-5">
+        <div class="container">
+            <h2 class="section-title text-white">Refresh Your Wardrobe!</h2>
+            <p class="lead text-white-50">Sign up for our newsletter to get exclusive deals on clothing, new arrivals, and style tips straight to your inbox.</p>
+            <form class="d-flex justify-content-center mt-4">
+                <input type="email" class="form-control me-2 cta-input" placeholder="Enter your email address" required>
+                <button type="submit" class="btn btn-cta">Subscribe Now</button>
+            </form>
+        </div>
+    </section>
+
+   <footer class="text-center text-lg-start">
+    <div class="container p-4">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                <h5>PORTIA STYLE HUB</h5>
+                <p class="footer-about">
+                    Your premier destination for trendy, affordable fashion. We specialize in high-quality 
+                    footwear and apparel that combines style with comfort. Our carefully curated collections 
+                    cater to all ages and occasions, helping you express your unique personality through fashion.
+                </p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://wa.me/26775513735" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5>QUICK LINKS</h5>
+                <ul class="list-unstyled">
+                    <li><a href="index.html"><i class="fas fa-chevron-right me-2"></i> Home</a></li>
+                    <li><a href="shoes.html"><i class="fas fa-chevron-right me-2"></i> Shoes Collection</a></li>
+                    <li><a href="clothing.html"><i class="fas fa-chevron-right me-2"></i> Clothing Line</a></li>
+                    <li><a href="new-arrivals.html"><i class="fas fa-chevron-right me-2"></i> New Arrivals</a></li>
+                    <li><a href="sale.html"><i class="fas fa-chevron-right me-2"></i> Special Offers</a></li>
+                </ul>
+            </div>
+            
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5>CONTACT US</h5>
+                <ul class="list-unstyled contact-info">
+                    <li><i class="fas fa-map-marker-alt me-2"></i> Main Mall, Gaborone, Botswana</li>
+                    <li><i class="fas fa-phone me-2"></i> +267 75 513 735</li>
+                    <li><i class="fas fa-envelope me-2"></i> portia@stylehub.com</li>
+                    <li><i class="fas fa-clock me-2"></i> Mon-Sat: 9AM - 7PM</li>
+                    <li><i class="fas fa-store me-2"></i> Sunday: 10AM - 4PM</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer-bottom">
+        <div class="container">
+            &copy; 2023 Portia Style Hub. All Rights Reserved. 
+            <span class="d-block d-sm-inline">|</span> 
+            <a href="privacy.html">Privacy Policy</a> | 
+            <a href="terms.html">Terms & Conditions</a>
+        </div>
+    </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const addToCartButtons = document.querySelectorAll('.add-to-cart');
+            
+            addToCartButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const productId = this.dataset.id;
+                    const productName = this.dataset.name;
+                    const productPrice = parseFloat(this.dataset.price);
+                    const productImage = this.dataset.image;
+
+                    let cart = JSON.parse(localStorage.getItem('cart')) || [];
+                    
+                    const existingItemIndex = cart.findIndex(item => item.id === productId);
+
+                    if (existingItemIndex > -1) {
+                        // If item already exists, increase quantity
+                        cart[existingItemIndex].quantity += 1;
+                    } else {
+                        // If item doesn't exist, add new item
+                        cart.push({
+                            id: productId,
+                            name: productName,
+                            price: productPrice,
+                            image: productImage,
+                            quantity: 1
+                        });
+                    }
+
+                    localStorage.setItem('cart', JSON.stringify(cart));
+                    alert(`${productName} has been added to your cart!`);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
